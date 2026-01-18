@@ -27,7 +27,7 @@ public class Task4 {
 		boolean palindrome = false;
 		
 		for(int i = 0; i <= size; i++) {
-			if(arr[i] == arr[size - i]) {
+			if(arr[i] == arr[size-1 - i]) {
 				palindrome = true;
 			}
 		}
